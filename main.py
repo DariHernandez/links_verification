@@ -1,18 +1,21 @@
 #! python3
 # Auto play 2048 game
 
-import logging, time, requests
+import logging, time, requests, sys
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
 
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
 logging.disable()
 
-url = 'https://platzi.com/'
+url = ''
+
+# Red the terminal
+helpMenssage = 'Write the url to verify links (example: python3 main.py "https://github.com/")'
+if len(sys.argv) == 2:  
+    url = sys.argv[1]
+else: 
+    print (helpMenssage)
+    sys.exit()
 
 browser = webdriver.Chrome()
 browser.get(url)
