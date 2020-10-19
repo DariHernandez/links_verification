@@ -3,6 +3,10 @@ Verify all links from a web site with Selenium
 
 # How to use
 Write the url by terminal. The program print if the each link is running or broke
+## Install modules
+**$ pip3 install request**
+
+**$ pip3 install selenium**
 
 ## Install modules
 **$ pip3 install selenium**
