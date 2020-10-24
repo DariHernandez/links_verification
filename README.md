@@ -8,9 +8,6 @@ Write the url by terminal. The program print if the each link is running or brok
 
 **$ pip3 install selenium**
 
-## Install modules
-**$ pip3 install selenium**
-
 [Download Selenium driver for google chrome] (https://chromedriver.chromium.org/downloads)
 
 ## Use example
@@ -23,6 +20,8 @@ Verificarf todos los enlaces de un sitio web con Selenium
 Escribe el url desde terminal. El programa imprimirá si es el link está funcionando o está roto
 
 ## Instalar módulos
+**$ pip3 install request**
+
 **$ pip3 install selenium**
 
 [Descarga el Driver de Selenium Para Google Chrome, aquí] (https://chromedriver.chromium.org/downloads)
