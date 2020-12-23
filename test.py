@@ -1,13 +1,5 @@
-# links_verification
-Verify that all the external/absolute links within a web page work correctly.
- 
-# Install
-``` bash
-$ 
-```
+import pprint, os
 
-# How to use
-``` bash
 from links_verification import verify
 
 my_verify = verify.Verify ("https://www.url_example.com")
@@ -50,4 +42,3 @@ links = my_verify.return_functional_links()
 
 # Return only the error links and their errors in a list
 links = my_verify.return_error_links()
-```
