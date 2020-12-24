@@ -1,9 +1,9 @@
-# links_verification
+# Links verification
 Verify that all the external/absolute links within a web page work correctly.
  
 # Install
 ``` bash
-$ 
+$ pip install links-verification
 ```
 
 # How to use
